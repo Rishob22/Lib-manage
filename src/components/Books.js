@@ -89,31 +89,31 @@ const booksData = [
     title: "IEEE Transactions on Computers",
     author: "IEEE",
     genre: "Journal",
-    image: "https://ieeexplore.ieee.org/assets/images/ieee_logo_black.png"
+    image: "https://csdl-images.ieeecomputer.org/website/default-covers/trans/tc.jpg"
   },
   {
     title: "ACM Computing Surveys",
     author: "ACM",
     genre: "Journal",
-    image: "https://dl.acm.org/pb-assets/journals/csur/CSUR-1535746349615.png"
+    image: "https://dl.acm.org/cms/asset/69cd84f5-a7df-4085-a408-f7db480538b0/default_cover.jpg"
   },
   {
     title: "The Lancet",
     author: "Various",
     genre: "Journal",
-    image: "https://www.thelancet.com/cms/attachment/8b6ce7c7-4cfb-4f55-b457-6be9e58a1e45/gr1_lrg.jpg"
+    image: "https://static.theprint.in/wp-content/uploads/2020/06/Lancet-696x392.jpeg?compress=true&quality=80&w=800&dpr=1.3"
   },
   {
     title: "Cell",
     author: "Various",
     genre: "Journal",
-    image: "https://www.cell.com/cms/attachment/21121e9f-06ba-4e87-9cae-bda694122fc1/gr1_lrg.jpg"
+    image: "https://www.cell.com/cms/asset/atypon:cms:attachment:img:d211e6:rev:1725998118909-13258:pii:S0092867423X00142/cover.tif.jpg"
   },
   {
     title: "Science",
     author: "AAAS",
     genre: "Journal",
-    image: "https://www.science.org/cms/10.1126/science.ada1627/asset/9eb0ac37-d800-40e4-85ae-3c3a83bc1082/assets/graphic/ada1627-f1.jpg"
+    image: "https://yt3.googleusercontent.com/ytc/AIdro_mcQHHdmKIHWJu7JnLHhm62pk-s2cihgP8O8EWm1f_SNQQ=s900-c-k-c0x00ffffff-no-rj"
   },
 
   // Magazine (6)
@@ -121,37 +121,37 @@ const booksData = [
     title: "Time",
     author: "Various",
     genre: "Magazine",
-    image: "https://i.pinimg.com/originals/3f/d3/0d/3fd30d2c34f63ff3e0d6a214406d3ff3.jpg"
+    image: "https://indiamags.com//uploads/products/large/40fd418d4e23c01ff40aa6b2de5ccc3b.jpg"
   },
   {
     title: "National Geographic",
     author: "Various",
     genre: "Magazine",
-    image: "https://upload.wikimedia.org/wikipedia/en/1/1e/National_Geographic_March_2020.jpg"
+    image: "https://m.media-amazon.com/images/I/51-f05jnUpL._SY445_SX342_.jpg"
   },
   {
     title: "Forbes",
     author: "Various",
     genre: "Magazine",
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Forbes_cover.jpg/220px-Forbes_cover.jpg"
+    image: "https://imageio.forbes.com/blogs-images/forbespr/files/2017/09/Forbes-Centennial-Issue-Cover_Buffett-2017-1200x1561.jpg?format=jpg&width=1440"
   },
   {
     title: "The Economist",
     author: "Various",
     genre: "Magazine",
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/The_Economist_2022_cover.jpg/220px-The_Economist_2022_cover.jpg"
+    image: "https://m.media-amazon.com/images/I/71t4P5Qo0PL._SL1500_.jpg"
   },
   {
     title: "Vogue",
     author: "Various",
     genre: "Magazine",
-    image: "https://upload.wikimedia.org/wikipedia/en/f/f2/Vogue_cover_September_2021.jpg"
+    image: "https://files.magzter.com/resize/magazine/1350031086/1740730828/view/2.jpg"
   },
   {
     title: "Wired",
     author: "Various",
     genre: "Magazine",
-    image: "https://upload.wikimedia.org/wikipedia/en/4/4d/Wired_cover.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Wired_US_magazine_November-December_2024_cover.webp/264px-Wired_US_magazine_November-December_2024_cover.webp.png"
   },
 
   // Comics (6)
@@ -159,13 +159,13 @@ const booksData = [
     title: "Batman: Year One",
     author: "Frank Miller",
     genre: "Comics",
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Batman_Year_One.jpg/220px-Batman_Year_One.jpg"
+    image: "https://m.media-amazon.com/images/I/61+hFGCapwL._SL1500_.jpg"
   },
   {
     title: "Spider-Man: Blue",
     author: "Jeph Loeb",
     genre: "Comics",
-    image: "https://upload.wikimedia.org/wikipedia/en/e/e9/Spider-Man_Blue.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/en/1/1e/Spider-Man-Blue.png"
   },
   {
     title: "Watchmen",
@@ -177,19 +177,19 @@ const booksData = [
     title: "Maus",
     author: "Art Spiegelman",
     genre: "Comics",
-    image: "https://upload.wikimedia.org/wikipedia/en/b/b8/Maus.png"
+    image: "https://m.media-amazon.com/images/I/71nXxfnNEcL._SL1375_.jpg"
   },
   {
     title: "V for Vendetta",
     author: "Alan Moore",
     genre: "Comics",
-    image: "https://upload.wikimedia.org/wikipedia/en/9/9f/V_for_vendettax.jpg"
+    image: "https://m.media-amazon.com/images/I/612jURJ-GGL._SL1000_.jpg"
   },
   {
     title: "X-Men: Days of Future Past",
     author: "Chris Claremont",
     genre: "Comics",
-    image: "https://upload.wikimedia.org/wikipedia/en/7/77/Uncanny_X-Men_141.jpg"
+    image: "https://m.media-amazon.com/images/I/914oJa0FwZL._SL1500_.jpg"
   }
 ];
 
