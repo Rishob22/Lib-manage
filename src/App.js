@@ -13,6 +13,7 @@ import TeacherLogin from './components/TeacherLogin';
 import BookList from './components/BookList';
 import EnterNewIssue from './components/EnterNewIssue';
 import RequestNewBook from './components/RequestNewBook';
+import Books from './components/Books';
 function App() {
   return (
     <Router>
@@ -29,6 +30,7 @@ function App() {
         <Route path="/booklist" element={<BookList />} />
         <Route path="/newissue" element={<EnterNewIssue />} />
         <Route path="/newbook" element={<RequestNewBook />} />
+        <Route path="/booksSection" element={<Books />} />
       </Routes>
     </Router>
   );

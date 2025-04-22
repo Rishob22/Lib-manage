@@ -49,6 +49,7 @@ const HomePage = () => {
         <a href="/librarianLogin" style={styles.button}>Librarian Login</a>
         <a href="/studentLogin" style={styles.button}>Student Login</a>
         <a href="/teacherLogin" style={styles.button}>Teacher Login</a>
+        <a href="/booksSection" style={styles.button}>Books Section</a>
       </div>
     </div>
   );
