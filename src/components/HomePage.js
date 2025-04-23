@@ -18,7 +18,7 @@ const HomePage = () => {
           style={styles.heroImage} 
         />
         <div style={styles.heroOverlay}>
-          <h1 style={styles.heroText}>Welcome to Our Library</h1>
+          <h1 style={styles.heroText}>EpicReads Library</h1>
           <p style={styles.subText}>
             Empowering learning through knowledge and resources.
           </p>
@@ -26,14 +26,55 @@ const HomePage = () => {
       </div>
 
       {/* About Section */}
-      <div style={styles.aboutSection}>
-        <h2 style={styles.aboutHeading}>About Our Library</h2>
-        <p style={styles.aboutText}>
-          Our library offers a vast collection of books, journals, and e-resources to support
-          academic learning, research, and recreational reading. Dedicated study spaces 
-          and expert guidance make it a hub for students and teachers alike.
-        </p>
-      </div>
+      <div style={{
+  position: 'relative',
+  width: '100%',
+  minHeight: '100vh',
+  color: 'white',
+  padding: '4rem 2rem',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  backgroundImage: 'url("https://media.istockphoto.com/id/172919971/photo/community-library-brick-building-front-entrance.jpg?s=2048x2048&w=is&k=20&c=yLKTvjnUhSQyIk6HyTm1OhA_1uMM7nVONsIuEdqoW50=")',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundAttachment: 'fixed',
+  zIndex: 1,
+}}>
+  <div style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    zIndex: 2,
+  }}></div>
+
+  <div style={{
+    position: 'relative',
+    zIndex: 3,
+    maxWidth: '800px',
+    margin: '0 auto',
+    textAlign: 'center',
+  }}>
+    <h2 style={{
+      fontSize: '3rem',
+      marginBottom: '2rem',
+      fontWeight: 'bold',
+    }}>About Our Library</h2>
+
+    <p style={{
+      fontSize: '1.2rem',
+      lineHeight: '1.8',
+      textAlign: 'justify',
+    }}>
+      Our library is more than just a place filled with books. It's a sanctuary of knowledge, a collaborative space for learners, and a center for innovation and research. From timeless literary classics to cutting-edge academic journals, our shelves and digital repositories are meticulously curated to cater to the diverse needs of students, faculty, and lifelong learners. The ambiance encourages focus, the staff offers guidance, and the atmosphere is filled with the spirit of discovery. Whether you seek a quiet nook to read or a vibrant space to collaborate, our library is your academic and intellectual haven.
+    </p>
+  </div>
+</div>
+
 
       {/* Notice Board */}
       <div style={styles.noticeBoard}>
